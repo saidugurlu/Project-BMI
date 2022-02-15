@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>BMI-RECHNER</h1>
+    </header>
+    <h2>BMI kostenlos berechnen und wissen, wo der Körper steht...</h2>
+ 
+    <fieldset>
+        <legend>Deine Angaben</legend>
+        <div class="flexForm">
+            <div>
+                <label>Gewicht: <br><input type="number" placeholder="Gewicht in Kilogramm" id="weight" value=""
+                        required autofocus></label> <br><br>
+
+                <label>Größe: <br><input type="number" placeholder="Körpergröße in Zentimetern" id="height" value=""
+                        required autofocus></label><br><br>
+
+                <label>Alter: <br><input type="number" placeholder="Alter als Zahl" id="age" value="" required
+                        autofocus></label><br><br>
+
+                <button onclick="calcBMI()">BMI berechnen</button>
+            </div>
+            <div class="ergebnis">
+                <p id="resultBMI"></p>
+            </div>
+ 
+        </div>
+    </fieldset>
+ 
+    <h4>* Dieser BMI-Rechner ist für Erwachsene ab 18 Jahren geeignet.</h4>
+    <script src="index.js"></script>
+</body>
+
+</html>
