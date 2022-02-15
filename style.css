@@ -33,6 +33,7 @@ fieldset {
 .flexForm {
     display: flex;
     justify-content: space-around;
+    gap: 4rem;
 }
 
 .ergebnis {
@@ -100,4 +101,11 @@ h2, h4 {
     margin: 5rem;
     color: rgb(32, 77, 77);
     letter-spacing: .15rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .flexForm {
+        flex-direction: column;
+        border-color: aqua;
+    }
 }
