@@ -55,6 +55,10 @@ label, legend {
 fieldset {
     padding: 5rem;
     background-color: antiquewhite;
+    border-radius: 50px;
+    background: linear-gradient(145deg, antiquewhite, #f5f8fb);
+    box-shadow: 20px 20px 60px #c3c5c8,
+        -20px -20px 60px #ffffff;
 }
 
 button {
